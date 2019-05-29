@@ -1,0 +1,47 @@
+
+
+html {
+    overflow-y: scroll;
+    box-sizing: border-box;
+  }
+
+body {
+  font-family: "arial", sans-serif;
+  color: #313131;
+  font-size: 1em;
+  line-height: 1.618;
+  overflow: hidden;
+  line-spacing:.04em;
+  background: #000000;
+}
+
+div {display: block;}
+
+* &,&::before,&::after {
+    box-sizing: inherit;
+    }
+
+  .drawer .flex .left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+/* Main content structure */
+
+.site-wrap {
+  word-wrap: break-break-word;
+  min-height: 713px;
+}
+
+.footer-wrap {
+  word-wrap: break-word;
+}
+
+.container {
+  position: relative;
+  margin-left: 0 auto;
+  padding-left: 0 16px;
+  max-width: 1372px;
+}
